@@ -1,0 +1,9 @@
+{
+  "name": "smoke-fixture-build-fail",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.error('intentional smoke build failure'); process.exit(1)\"",
+    "start": "node index.js"
+  }
+}
