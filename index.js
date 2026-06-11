@@ -20,3 +20,5 @@ http
     res.end(`ok ${process.env.RAILWAY_REPLICA_ID || ""}`);
   })
   .listen(port, () => console.log(`listening on ${port}`));
+
+// v2
